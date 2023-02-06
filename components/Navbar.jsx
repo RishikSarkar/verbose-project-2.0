@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import LogoImg from '../public/assets/logo-white.png'
 import {AiOutlineMenu} from 'react-icons/ai';
 import {BsMoon, BsSun} from 'react-icons/bs';
 import {RxCross1} from 'react-icons/rx'
@@ -33,7 +34,7 @@ const Navbar = () => {
     'font-roboto fixed w-full h-20 z-[100] select-none'}>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <div className='ml-8 md:ml-0 flex items-center'>
-          <Image src="/../public/assets/logo-white.png" alt="/" width='60' height='60' />
+          <Image src={LogoImg} alt="/" width='60' height='60' />
           <h2 className='font-light ml-2 text-[#F0FFFF]'>verbose</h2>
         </div>
         <div>
