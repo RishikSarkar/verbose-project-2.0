@@ -35,7 +35,7 @@ const stagger = {
 const Main = () => {
   return (
     <motion.div initial='initial' animate='animate'>
-      <div id='home' className='font-roboto selection:text-[#11173a] selection:bg-[#F0FFFF] w-full h-screen text-center'>
+      <div id='home' className='font-roboto selection:text-[#11173a] selection:bg-[#F0FFFF] selection:bg-opacity-50 w-full h-screen text-center'>
         <div className='max-w-[1440px] w-full h-full mx-auto p-12 flex justify-center items-center'>
           <motion.div variants={stagger}>
             <div>
@@ -50,7 +50,7 @@ const Main = () => {
                 <div className='max-w-[200px] m-auto -mb-24 py-4 select-none'>
                   <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.95}}>
                     <Link href=''>
-                      <div className='font-medium text-[#ecf0f3] cursor-pointer text-sm uppercase px-6 p-3 rounded-full bg-[#BBEBE9] bg-opacity-10 hover:bg-opacity-20 ease-in duration-100'>
+                      <div className='font-medium text-[#F0FFFF] cursor-pointer text-sm uppercase px-6 p-3 rounded-full bg-[#BBEBE9] bg-opacity-10 hover:bg-opacity-20 ease-in duration-100'>
                         <h3>I Want to Learn!</h3>
                       </div>
                     </Link>
