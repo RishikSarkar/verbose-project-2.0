@@ -35,7 +35,7 @@ const stagger = {
 const Main = () => {
   return (
     <motion.div initial='initial' animate='animate'>
-      <div id='home' className='font-roboto selection:text-[#11173a] selection:bg-[#BFEFFF] w-full h-screen text-center'>
+      <div id='home' className='font-roboto selection:text-[#11173a] selection:bg-[#F0FFFF] w-full h-screen text-center'>
         <div className='max-w-[1440px] w-full h-full mx-auto p-12 flex justify-center items-center'>
           <motion.div variants={stagger}>
             <div>
@@ -44,7 +44,7 @@ const Main = () => {
                   Redefine Learning
                 </h1>
                 <h2 className='font-light py-5 max-w-[65%] m-auto text-[#F0FFFF]'>
-                  Looking for help with classes? Verbose has your back. Sign up to join the community ASAP!
+                  Looking for help with classes? Verbose has your back. Sign up to learn ASAP!
                 </h2>
 
                 <div className='max-w-[200px] m-auto -mb-24 py-4 select-none'>
