@@ -18,7 +18,7 @@ const About = () => {
                 <div className='flex flex-col px-8'>
                   <p className='text-xl pt-4 pb-2 select-none'>- Self-paced Learning -</p>
                   <p className='font-light text-md py-4'>
-                    You'll be able to move at your own speed. Whether you grind multiple chapters of content
+                    You&apos;ll be able to move at your own speed. Whether you grind multiple chapters of content
                     during all-nighters or space it out during the day, we have it ready at your disposal.
                     The ball is in your park.
                   </p>
@@ -33,8 +33,8 @@ const About = () => {
                 <div className='flex flex-col px-8'>
                   <p className='text-xl pt-4 pb-2 select-none'>- Inclusive Community -</p>
                   <p className='font-light text-md py-4'>
-                    We know how hard COVID hit students like us since 2020. That's why our platform ensures
-                    a welcoming and engaging community solely for learning. In other words: you're not alone!
+                    We know how hard COVID hit students like us since 2020. That&apos;s why our platform ensures
+                    a welcoming and engaging community solely for learning. In other words: you&apos;re not alone!
                   </p>
                 </div>
               </div>
