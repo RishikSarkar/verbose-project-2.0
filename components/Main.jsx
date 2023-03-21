@@ -35,7 +35,7 @@ const stagger = {
 const Main = () => {
   return (
     <motion.div initial='initial' animate='animate'>
-      <div id='home' className='font-roboto selection:text-[#11173a] selection:bg-[#F0FFFF] selection:bg-opacity-50 w-full h-screen text-center'>
+      <div id='home' className='font-roboto selection:text-[#00001F] selection:bg-[#F0FFFF] w-full h-screen text-center'>
         <div className='max-w-[1440px] w-full h-full mx-auto p-12 flex justify-center items-center'>
           <motion.div variants={stagger}>
             <div>
